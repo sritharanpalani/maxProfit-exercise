@@ -30,7 +30,6 @@ readline.question(`Enter time period: `, (givenTime) => {
         let profit = result.sort((a,b) => {
             return b.maximumProfit - a.maximumProfit;
         })
-    
-        console.log('this is final result', profit);
+        console.log('this is final result ====', profit);
     readline.close()
 })
